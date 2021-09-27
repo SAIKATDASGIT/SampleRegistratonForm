@@ -1,3 +1,3 @@
 FROM tomcat:latest
-RUN rm -rf /usr/local/tomcat/webapps/ROOT.war
+RUN rm -rf /usr/localtomcat/webapps/ROOT.war
 COPY ROOT.war /usr/local/tomcat/webapps
